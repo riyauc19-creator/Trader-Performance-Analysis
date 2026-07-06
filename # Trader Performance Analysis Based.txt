@@ -1,0 +1,43 @@
+# Trader Performance Analysis Based on Market Sentiment
+
+## Project Overview
+This project analyzes historical cryptocurrency trading data along with the Bitcoin Fear & Greed Index to understand how market sentiment influences trader performance. The analysis includes data cleaning, merging, exploratory data analysis (EDA), performance metrics, and visualizations.
+
+## Datasets
+1. historical_data.csv
+   - Contains historical cryptocurrency trading records.
+
+2. fear_greed_index.csv
+   - Contains daily Bitcoin Fear & Greed Index classifications.
+
+## Tools & Libraries
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+## Project Workflow
+1. Loaded both datasets.
+2. Cleaned and prepared the data.
+3. Converted date columns into datetime format.
+4. Merged trading data with Fear & Greed Index data.
+5. Performed exploratory data analysis.
+6. Calculated trading performance metrics.
+7. Created visualizations.
+8. Derived insights from the analysis.
+
+## Key Findings
+- Overall Win Rate: **41.12%**
+- Average Trade Size: **$5639.19**
+- Fear had the highest trading activity.
+- Fear generated the highest total Closed PnL.
+- Extreme Greed had the highest average Closed PnL per trade.
+- Market sentiment significantly influenced trading behavior and profitability.
+
+## Files Included
+- Trader_Performance_Analysis.ipynb
+- README.md
+- historical_data.csv
+- fear_greed_index.csv
